@@ -56,7 +56,7 @@ textarea {
 }
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 12px/18px Arial;
 }
 
 .wrapper {
@@ -90,7 +90,7 @@ section h2 {
 }
 
 header {
-	border-top: 21px solid black;
+	border-top: 21px solid #d37513;
 	text-align: center;
 	width: 100%;
 }
@@ -131,27 +131,88 @@ header {
 }
 
 p.liebe {
-	font-size: 25px;
-	line-height: 30px;
 	margin: 0;
 }
 
 p.unser {
-	font-size: 15px;
-	line-height: 21px;
-	margin-top: 10px;
-}
-
-p.wir {
-	font-size: 12px;
-	line-height: 18px;
+	margin-top: 3px;
+	margin-bottom: 0;
 }
 
 .gray-box {
 	text-align: center;
 	padding: 25px;
 	background-color: #efeced;
-	height: 99px;
 	width: 428px;
 	margin: 0 auto;
+}
+
+.white-box {
+	text-align: center;
+	padding: 25px;
+	width: 428px;
+	margin: 0 auto;
+}
+
+.orange-box {
+	text-align: center;
+	padding: 25px;
+	width: 428px;
+	margin: 0 auto;
+	color: white;
+	background-color: #d37513;
+}
+
+#activities {
+	overflow: hidden;
+	width: 478px;
+	margin: 9px auto;
+
+}
+
+#activities .float-left {
+	width: 185px;
+	float: left;
+	text-align: left;
+}
+
+#activities .float-right {
+	width: 185px;
+	float: right;
+	text-align: left;
+}
+
+.orange-color {
+	color: #d37513;
+}
+
+.last-block p {
+	margin-top: 0;
+	margin-bottom: 9px; 
+}
+
+.last-block p:last-child {
+	margin-bottom: 0; 
+}
+
+.besten {
+	text-align: left;
+	overflow: hidden;
+}
+
+.besten p {
+	margin-top: 0;
+	margin-bottom: 9px;
+}
+.besten ul {
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.besten ul > li {
+	float: left;
+	margin-right: 13px;
+	padding-left: 0;
 }
