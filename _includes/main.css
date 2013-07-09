@@ -64,29 +64,32 @@ body {
     margin: 0 auto;
 }
 
-section img {
-	float: left;
-	width: 143px;
-}
-
 section {
 	overflow: hidden;
-	width: 478px;
-}
-
-section img {
-	float: left;
-	width: 143px;
-}
-
-section p {
-	float: right;
-	width: 325px;
+	width: 550px;
+	margin: 0 auto;
 }
 
 section h2 {
+	margin-top: 0;
+	margin-bottom: 9x;
+}
+
+section p {
+	margin: 0;
+	font-size: 10px;
+	line-height: 14px;
+}
+
+
+section img {
+	float: left;
+	width: 143px;
+}
+
+section .gray-box {
 	float: right;
-	width: 325px;
+	width: 275px;
 }
 
 header {
@@ -204,6 +207,7 @@ p.unser {
 	margin-top: 0;
 	margin-bottom: 9px;
 }
+
 .besten ul {
 	overflow: hidden;
 	list-style-type: none;
@@ -215,4 +219,15 @@ p.unser {
 	float: left;
 	margin-right: 13px;
 	padding-left: 0;
+}
+
+section .gray-box {
+	text-align: left;
+	margin-bottom: 9px;
+	width: 348px;
+	height: 148px;
+}
+
+footer.gray-box {
+	width: 500px;
 }
