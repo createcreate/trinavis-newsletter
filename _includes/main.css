@@ -186,7 +186,17 @@ p.unser {
 	overflow: hidden;
 	width: 478px;
 	margin: 9px auto;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+}
 
+#activities ul {
+	height: 93px;
+}
+
+#activities ul > li {
+	margin-left: 12px;
 }
 
 #activities .float-left {
