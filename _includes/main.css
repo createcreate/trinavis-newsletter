@@ -93,9 +93,10 @@ section .gray-box {
 }
 
 header {
-	border-top: 21px solid #d37513;
+	border-top: 21px solid black;
 	text-align: center;
 	width: 100%;
+	margin-bottom: 9px;
 }
 
 .rainbow-separator {
@@ -230,4 +231,8 @@ section .gray-box {
 
 footer.gray-box {
 	width: 500px;
+}
+
+article {
+	margin-top: 21px;
 }
