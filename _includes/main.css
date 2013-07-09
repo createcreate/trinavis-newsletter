@@ -1,3 +1,157 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
 body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 550px;
+    margin: 0 auto;
+}
+
+section img {
+	float: left;
+	width: 143px;
+}
+
+section {
+	overflow: hidden;
+	width: 478px;
+}
+
+section img {
+	float: left;
+	width: 143px;
+}
+
+section p {
+	float: right;
+	width: 325px;
+}
+
+section h2 {
+	float: right;
+	width: 325px;
+}
+
+header {
+	border-top: 21px solid black;
+	text-align: center;
+	width: 100%;
+}
+
+.rainbow-separator {
+	overflow: hidden;
+	background-color: #efeced;
+}
+
+.rainbow-separator div {
+	height: 21px;
+	width: 79px;
+	float: left;
+}
+
+.rainbow-separator div:nth-child(1) {
+	background-color: black;
+}
+
+.rainbow-separator div:nth-child(2) {
+	background-color: #333333;
+}
+
+.rainbow-separator div:nth-child(3) {
+	background-color: #4d4d4d;
+}
+
+.rainbow-separator div:nth-child(4) {
+	background-color: #8c8c8c;
+}
+
+.rainbow-separator div:nth-child(5) {
+	background-color: #d9d9d9;
+}
+
+.rainbow-separator div:nth-child(6) {
+	background-color: #e6e6e6;
+}
+
+p.liebe {
+	font-size: 25px;
+	line-height: 30px;
 	margin: 0;
+}
+
+p.unser {
+	font-size: 15px;
+	line-height: 21px;
+	margin-top: 10px;
+}
+
+p.wir {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.gray-box {
+	text-align: center;
+	padding: 25px;
+	background-color: #efeced;
+	height: 99px;
+	width: 428px;
+	margin: 0 auto;
 }
