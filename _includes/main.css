@@ -89,7 +89,7 @@ section .gray-box {
 }
 
 header {
-	border-top: 21px solid black;
+	border-top: 21px solid #ec7104;
 	text-align: center;
 	width: 100%;
 	margin-bottom: 9px;
@@ -158,14 +158,6 @@ p.unser {
 	margin-bottom: 0;
 }
 
-.gray-box {
-	text-align: center;
-	padding: 25px;
-	background-color: #efeced;
-	width: 428px;
-	margin: 0 auto;
-}
-
 .white-box {
 	text-align: center;
 	padding: 25px;
@@ -179,7 +171,7 @@ p.unser {
 	width: 428px;
 	margin: 0 auto;
 	color: white;
-	background-color: #d37513;
+	background-color: #ec7104;
 }
 
 #activities {
@@ -211,8 +203,8 @@ p.unser {
 	text-align: left;
 }
 
-.orange-color {
-	color: #d37513;
+.gray-color {
+	color: #4d4d4d;
 }
 
 .last-block p {
@@ -247,15 +239,29 @@ p.unser {
 	padding-left: 0;
 }
 
+.gray-box {
+	text-align: center;
+	padding: 25px;
+	background-color: #efeced;
+	width: 428px;
+	margin: 0 auto;
+}
+
 section .gray-box {
 	text-align: left;
 	margin-bottom: 9px;
 	width: 348px;
 	height: 148px;
+	background-color: #d9d9d9;
+}
+
+section p {
+	margin-bottom: 4px;
 }
 
 footer.gray-box {
 	width: 500px;
+	height: 17px;
 }
 
 article {
@@ -266,4 +272,12 @@ hr {
 	margin-top: 0;
 	margin-bottom: 9px;
 	border-width: 20px;
+}
+
+#logo {
+	float: left;
+}
+
+#copyright {
+	float: right;
 }
