@@ -8,6 +8,7 @@ textarea {
 
 body {
     font-size: 1em;
+    mso-line-height-rule: exactly;
     line-height: 1.4;
 }
 
@@ -69,11 +70,14 @@ section {
 section h2 {
 	margin-top: 0;
 	margin-bottom: 9x;
+	margin-left: 25px;
+	margin-top: 25px;
 }
 
 section p {
 	margin: 0;
 	font-size: 10px;
+    mso-line-height-rule: exactly;
 	line-height: 14px;
 }
 
@@ -179,6 +183,7 @@ p.unser {
 	width: 478px;
 	margin: 9px auto;
 	font-size: 14px;
+    mso-line-height-rule: exactly;
 	line-height: 24px;
 	font-weight: bold;
 }
@@ -241,27 +246,28 @@ p.unser {
 
 .gray-box {
 	text-align: center;
-	padding: 25px;
 	background-color: #efeced;
-	width: 428px;
+	width: 478px;
 	margin: 0 auto;
 }
 
 section .gray-box {
 	text-align: left;
 	margin-bottom: 9px;
-	width: 348px;
-	height: 148px;
+	width: 398px;
+	height: 198px;
 	background-color: #d9d9d9;
 }
 
 section p {
 	margin-bottom: 4px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 footer.gray-box {
-	width: 500px;
-	height: 17px;
+	width: 550px;
+	height: 67px;
 }
 
 article {
@@ -276,8 +282,12 @@ hr {
 
 #logo {
 	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
 }
 
 #copyright {
 	float: right;
+	margin-right: 25px;
+	margin-top: 25px;
 }
